@@ -1,70 +1,49 @@
-# Sobre o Projeto
+# Bem-vindo(a). Este é o desafio Front End!
 
-## AllInOneMart - E-commerce com React, TypeScript e Vite
+O objetivo deste desafio é avaliar suas habilidades de programação. Quando sua solução estiver pronta, basta responder o e-mail que recebeu comunicando a finalização do desafio! Em seguida, enviaremos o feedback e as instruções dos próximos passos!
 
-Este projeto é um exemplo de um e-commerce desenvolvido com React, TypeScript e Vite. Ele utiliza o Material-UI (MUI) para a interface do usuário e consome uma API REST para gerenciar produtos e o processo de checkout.
+Caso tenha alguma dúvida, nós estamos disponíveis no email selecao.frontend@forestoken.com.br 
 
-## Funcionalidades
+Bom desafio!
 
-- **Catálogo de Produtos**: Exibe uma lista de produtos com paginação.
-- **Busca**: Permite buscar produtos por nome, descrição, categoria ou marca.
-- **Carrinho de Compras**: Adiciona e remove produtos do carrinho, com atualização em tempo real.
-- **Checkout**: Finaliza a compra e exibe um número de pedido.
+## CONTEXTO
 
-## Pré-requisitos
+O desafio será criar o front-end de um e-commerce consumindo os dados da API de apoio feita exclusivamente para esse desafio.
 
-- Node.js (versão 14 ou superior)
-- npm (versão 6 ou superior)
+Nesse front-end você deverá implementar as seguintes funcionalidades:
 
-## Instalação
-1. **entrar na pasta:**
+- Catálogo de produtos com paginação - ok
+- Busca por palavras contidas no nome do produto, descrição, categoria ou marca - ok
+- Carrinho de compras simplificado
+- Finalização da compra (checkout)
+ 
+## INSTRUÇÕES
 
-   ```cd my-react-app```
+Chegou a hora de colocar a mão na massa!
 
-2. **Instale as dependências:**
+- Construa a identidade visual das telas livremente
+- Utilize qualquer framework a sua escolha, ou até mesmo JavaScript puro
+- Faça a estilização com qualquer abordagem, como CSS puro, SCSS ou Styled components
+- Utilize o local storage para gerenciar o carrinho
+- Adicione nesse README as instruções de como rodar o seu projeto
+- Sinta-se livre para incluir quaisquer observações
+- Consuma nossa API REST de apoio que está documentada em http://localhost:8888/docs 
+- Uma versão SWAGGER da documentação pode ser acessada em http://localhost:8888/swagger 
 
-   ```bash
-   npm install
-   ```
 
-## Executando o Projeto
+## CRITÉRIOS DE AVALIAÇÃO
 
-1. **Inicie o servidor de desenvolvimento:**
+Além dos requisitos levantados acima, iremos olhar para os seguintes critérios durante a correção do desafio:
 
-   ```bash
-   npm run dev
-   ```
+- Preocupação com usabilidade
+- Preocupação com identidade visual
+- Legibilidade do código
+- Componentização
+- Responsividade
 
-2. **Acesse o projeto:**
+## OUTRAS INFORMAÇÕES
 
-   Abra o navegador e acesse `http://localhost:3000`.
-
-## Scripts Disponíveis
-
-- **`npm run dev`**: Inicia o servidor de desenvolvimento.
-- **`npm run build`**: Compila o projeto para produção.
-- **`npm run lint`**: Executa o ESLint para verificar problemas de linting.
-- **`npm run preview`**: Visualiza a versão de produção do projeto.
-
-## Estrutura do Projeto
-
-- **`src/`**: Contém o código-fonte do projeto.
-  - **`components/`**: Componentes React reutilizáveis.
-  - **`hooks/`**: Hooks personalizados para lógica de negócios.
-  - **`types/`**: Definições de tipos TypeScript.
-  - **`constants/`**: Constantes usadas no projeto.
-  - **`theme/`**: Configuração de tema do Material-UI.
-  - **`assets/`**: Arquivos estáticos como imagens e ícones.
-
-## Configuração do ESLint
-
-O projeto utiliza ESLint para garantir a qualidade do código. A configuração está definida em `eslint.config.js` e inclui regras para React, TypeScript e hooks.
-
-## API
-
-O projeto consome uma API REST documentada em `http://localhost:8888/docs`. Certifique-se de que a API esteja rodando antes de iniciar o projeto.
-
-## Observações
-
-- O carrinho de compras é gerenciado usando o `localStorage`.
-- O projeto utiliza o Material-UI para estilização, então certifique-se de que as dependências do MUI estejam instaladas.
+- Fique a vontade para consultar fóruns, comunidades ou quaisquer outros conteúdos disponíveis na internet
+- A função copiar e colar fica disponível apenas dentro desta máquina virtual
+- Você terá acesso a esta máquina virtual por 3 dias (72 horas)
+- Este desafio foi construído para propósitos de avaliação apenas

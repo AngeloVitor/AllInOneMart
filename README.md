@@ -12,8 +12,8 @@ O desafio será criar o front-end de um e-commerce consumindo os dados da API de
 
 Nesse front-end você deverá implementar as seguintes funcionalidades:
 
-- Catálogo de produtos com paginação
-- Busca por palavras contidas no nome do produto, descrição, categoria ou marca
+- Catálogo de produtos com paginação - ok
+- Busca por palavras contidas no nome do produto, descrição, categoria ou marca - ok
 - Carrinho de compras simplificado
 - Finalização da compra (checkout)
  
@@ -47,4 +47,3 @@ Além dos requisitos levantados acima, iremos olhar para os seguintes critérios
 - A função copiar e colar fica disponível apenas dentro desta máquina virtual
 - Você terá acesso a esta máquina virtual por 3 dias (72 horas)
 - Este desafio foi construído para propósitos de avaliação apenas
-
